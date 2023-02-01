@@ -1,30 +1,46 @@
 #1
-name = input('Type name :')
-admin = name
-print(f"#1: {admin}")
+number = int(input('number: '))
+if number == 10:
+    print('True')
+else:
+    print('False')
 
+print('/*/*/*/*/*/*/*/*/*/*/*/*/')
 #2
-first = int(input('firstNumber: '))
-second = int(input('secondNumber: '))
-a1 = first + second
-a2 = first - second
-a3 = first * second
-a4 = first / second
-print(f"#2: a1 = {a1}, a2 = {a2}, a3 = {a3}, a4 = {a4}")
+min = int(input('number: '))
+if min >= 0 and min <= 15:
+    print('First')
+elif min > 15 and min <=30:
+    print('Second')
+elif min > 30 and min <=45:
+    print('Third')
+elif min > 45 and min <=59:
+    print('Fourth')
 
+print('/*/*/*/*/*/*/*/*/*/*/*/*/')
 #3
-a6 = 5 % 3
-a7 = 3 % 5
-a8 = 5 * int('3')
-a9 = int('5') - 3
-a10 = str('75') + 'kg'
-print(f"#3: a6 = {a6}, a7 = {a7}, a8 = {a8}, a9 = {a9}, a10 = {a10}")
+a = int(input('a = '))
+if a > 1:
+    print('a ulken 1 den')
+else:
+    print('a ulken emes 1 den')
 
+print('/*/*/*/*/*/*/*/*/*/*/*/*/')
 #4
-height = int(input('Height: '))
-width = int(input('Width: '))
-s = float(height * width)
-print(f"#4 Square = {s}")
+jas = int(input('Jasinizdi kiritin: '))
+if jas < 20:
+    print('Siz ele jassiz')
+else:
+    print('Siz bizge tuwra kelesiz')
 
+print('/*/*/*/*/*/*/*/*/*/*/*/*/')
+#5
+name = str(input('Atinizdi kiritin '))
+if name != '':
+    print(f"Salem, {name}!")
+else:
+    print('Salem, biytanis adam')
 
+print('/*/*/*/*/*/*/*/*/*/*/*/*/')
+#6
 
